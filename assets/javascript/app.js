@@ -78,6 +78,6 @@ $("#addAnimeChar").on("click", function(event){
     makeButtons(animeCharacters, "animeButton", "#anime-buttons");
 });
 
-makeButtons(animeCharacters, "animeButton", "anime-buttons")
+makeButtons(animeCharacters, "animeButton", "#anime-buttons")
 
 });
