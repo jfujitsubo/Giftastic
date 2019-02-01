@@ -11,9 +11,10 @@ function makeButtons(animeArray, addClass, addToDiv){
 
     for (var i = 0; i < animeArray.length; i++) {
         var j = $('<button>');
-        j.attr('data-name', animeArray[i]);
-        j.text(animeArray[j]);
         j.addClass(addClass);
+        j.attr('data-type', animeArray[i]);
+        j.text(animeArray[j]);
+        
         $(addToDiv).append(j);
         }
     }
