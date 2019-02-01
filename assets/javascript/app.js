@@ -51,7 +51,7 @@ $(document).on("click", ".animeButton", function(){
             animeDiv.append(p);
             animeDiv.append(animePic);
 
-            $("#anime").append(animeDiv);
+            $("#animeChars").append(animeDiv);
         
         }
     });
