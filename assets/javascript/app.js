@@ -1,5 +1,4 @@
-/*getting error Uncaught Reference error
-$ is not defined, regarding line 3 of this file*/ 
+
 $(document).ready(function() {
 
 //create an array to hold initial buttons
@@ -12,8 +11,9 @@ function makeButtons(animeArray, addClass, addToDiv){
     for (var i = 0; i < animeArray.length; i++) {
         var j = $('<button>');
         j.addClass(addClass);
+        j.addClass("btn btn-light");
         j.attr('data-type', animeArray[i]);
-        j.text(animeArray[j]);
+        j.text(animeArray[i]);
         
         $(addToDiv).append(j);
         }
