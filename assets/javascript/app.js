@@ -23,7 +23,7 @@ $(document).on("click", ".animeButton", function(){
     $("#animeChars").empty();
     $(".animeButton").removeClass("active");
     $(this).addClass("active");
-
+//my api key wasnt working so i used the one provided in the solution
     var type = $(this).attr("data-type");
     var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + type + "&api_key=dc6zaTOxFJmzC&limit=10";
 
